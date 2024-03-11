@@ -173,29 +173,9 @@ section {
     font-size: 2rem;
 }
 
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.card {
-    width: 200px;
-    text-align: center;
-    background-color: #1d4fd83e;
-    border-radius: 5px;
-    padding: 5px 5px;
-}
-
-.card img {
-    max-width: 100%;
-    height: auto;
-}
-
-.card p {
-    margin-top: 10px;
-    font-size: 1.2rem;
+.container {
+    display: grid;
+    grid-template-columns: repeat(3fr, 1);
 }
 
 .card:hover {
